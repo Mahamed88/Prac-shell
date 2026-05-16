@@ -166,31 +166,47 @@ newshell> myhistory
 ```
 
 ---
+# Example Screenshots
 
-# Suggested Screenshots
+## 1. PATH Management
 
-Take screenshots of these commands for the README:
+Demonstrates the custom `path` built-in command for adding and removing directories from the shell PATH variable.
 
-## Screenshot 1 – PATH Built-In
-
-```text
-newshell> path
-newshell> path + /tmp
-newshell> path
-```
-
-## Screenshot 2 – Multiple Commands and External Commands
+Command used:
 
 ```text
-newshell> pwd ; ls ; path
+newshell> path + /tmp ; path ; path - /tmp ; path
 ```
 
-## Screenshot 3 – Error Handling and Exit
+<img width="1200" alt="PATH Management Demo" src="screenshots/path-management.png">
+
+---
+
+## 2. Input and Output Redirection
+
+Demonstrates support for output redirection (`>`) and input redirection (`<`).
+
+Command used:
 
 ```text
-newshell> fakecommand
-newshell> exit
+newshell> echo "hello shell" > demo.txt ; cat < demo.txt ; rm demo.txt
 ```
+
+<img width="1200" alt="Redirection Demo" src="screenshots/redirection-demo.png">
+
+---
+
+## 3. Alias Support and Command History
+
+Demonstrates alias creation and command history tracking using `myhistory`.
+
+Command used:
+
+```text
+newshell> alias ll="ls -l" ; ll ; myhistory
+```
+
+<img width="1200" alt="Alias and History Demo" src="screenshots/history-alias-demo.png">
 
 ---
 
