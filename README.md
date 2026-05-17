@@ -166,7 +166,7 @@ newshell> myhistory
 ```
 
 ---
-# Example Screenshots
+# Demonstration Screenshots
 
 ## 1. PATH Management
 
