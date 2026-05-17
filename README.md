@@ -178,7 +178,7 @@ Command used:
 newshell> path + /tmp ; path ; path - /tmp ; path
 ```
 
-<img width="1200" alt="PATH Management Demo" src="screenshots/path-management.png">
+<img width="1200" alt="PATH Management Demo" src="prac-screenshots/path-management.png">
 
 ---
 
@@ -192,7 +192,7 @@ Command used:
 newshell> echo "hello shell" > demo.txt ; cat < demo.txt ; rm demo.txt
 ```
 
-<img width="1200" alt="Redirection Demo" src="screenshots/redirection-demo.png">
+<img width="1200" alt="Redirection Demo" src="prac-screenshots/redirection-demo.png">
 
 ---
 
@@ -206,8 +206,7 @@ Command used:
 newshell> alias ll="ls -l" ; ll ; myhistory
 ```
 
-<img width="1200" alt="Alias and History Demo" src="screenshots/history-alias-demo.png">
-
+<img width="1200" alt="Alias and History Demo" src="prac-screenshots/history-alias-demo.png">
 ---
 
 # Design Overview
